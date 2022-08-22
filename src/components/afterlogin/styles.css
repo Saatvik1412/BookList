@@ -1,0 +1,205 @@
+/* body{
+    background-image:url('https://cdn.discordapp.com/attachments/880091257450414190/1009215069005021304/picw.jpg');
+
+} */
+body{
+    background-image:url('https://cdn.discordapp.com/attachments/880091257450414190/1009215069005021304/picw.jpg');
+   /* background-image:url('https://cdn.discordapp.com/attachments/880091257450414190/1009619790329032775/porpel.jpg '); */
+    /* background-repeat: repeat; */
+}
+
+h3{
+    /* color:rgb(190, 11, 110); */
+    color:rgb(25, 196, 226);
+    font-weight:bold;
+}
+/* .w{
+    padding-bottom: 100px;
+    padding-left: 30px;
+} */
+h1{
+    font-weight:bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+    color:rgb(192, 22, 101);
+    font-size:70px;
+}
+
+.box1{
+    margin-bottom:100px;
+    width:100px;
+    margin-left:910px;
+}
+.input {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #ba0953;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: white;
+    outline: none;
+    transition: .5s;
+}
+.box1:hover input{
+    width: 390px;
+    text-align: center;
+    margin-left: -145px;
+margin-right: 155px;
+    background: #3b3640;
+    border-radius: 50px;
+}
+.kclose{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #ba0953;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: white;
+    outline: none;
+    transition: .5s;
+}
+.kopen{
+    width: 390px;
+    text-align: center;
+    margin-left: -145px;
+    margin-right: 155px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+.box1 .btni{
+    /* filter: invert(13%) sepia(92%) saturate(4118%) hue-rotate(324deg) brightness(86%) contrast(101%); */
+    position: relative;
+    /* top: 50%; */
+    background: none;
+    outline: none;
+    border: none;
+    bottom: 60px;
+    left:20px;
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .4s;
+}
+.iopen{
+    transform: translate(160px,0px);
+    transition:400ms ease-in-out;
+    
+}
+.img1{
+    filter: invert(13%) sepia(92%) saturate(4118%) hue-rotate(324deg) brightness(86%) contrast(101%);
+}
+.box1:hover .btni{
+    transform: translate(165px,0px);
+    transition:400ms ease-in-out;
+}
+
+
+.container-card{
+    display:flex;
+    flex-flow: wrap row;
+    background: none;
+    gap: 40px;
+    margin-inline:20px;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 80vw;
+    min-height: 20vh;
+}
+.book-card{
+    display:grid;
+    font-size:1px;
+    grid-template-columns: 200px;
+    grid-template-rows: 240px 40px 40px 60px;
+    flex-flow: nowrap column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e62474a9;
+    border-radius: 30px;
+    text-align: center;
+    align-items: stretch;
+    box-shadow: 6px 6px rgb(62, 155, 241);
+    transition: ease-in-out 200ms;
+    animation: slidein ease-in-out 500ms;
+}
+.book-card:hover{
+    transform: translate(-5px, -5px);
+  box-shadow: 15px 15px rgb(117, 205, 245);
+}
+.title{
+    padding-top:30px;
+    color:white;
+    font-size: 24px;
+}
+.subtitle{
+    padding-top:2px;
+    color:white;
+    font-size: 24px;
+}
+.book-img img{
+    padding-top:20px;
+    width:160px;
+    text-align: center;
+}
+
+.tt{
+    display:none;
+}
+
+.seekbar{
+    background-color:black;
+}
+
+.viewlist-element{
+    display: grid;
+    grid-template-columns: 10% 24% 19% 10% 9% 9% 4% 3% 3%;
+    grid-gap: 1%;
+    /* grid-template-columns:240px 40px 40px 60px ; */
+    grid-template-rows: 150px;
+    background-color: #3a093a73;
+    /* border-radius: 30px; */
+    text-align:center;
+    align-items:center;
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.viewlist-element h1{
+    font-size:30px;
+    color:white;
+}
+
+.view{
+    /* border: 2px solid white; */
+}
+.btn-view{
+    border:none;
+    height:37px;
+    width:37px;
+    border-radius: 11px;
+}
+.btn-view:hover{
+    background-color:rgb(15, 75, 153);
+}
+.btn-view1{
+    border:none;
+    height:37px;
+    width:37px;
+    border-radius: 11px;
+}
+.btn-view1:hover{
+    background-color:rgb(197, 31, 86);
+    
+}
+.btn-view:hover i {
+   color:white;
+}
+.btn-view1:hover i{
+    color:white;
+}
